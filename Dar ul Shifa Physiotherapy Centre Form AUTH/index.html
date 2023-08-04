@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="h1">
+        Dar ul Shifa Physiotherapy Centre Form
+    </h1>
+    <div class="container">
+        <form action="">
+            <div class="form">
+                <div class="div1">
+                    <label class="label" for="srNo">Sr No.</label>
+                    <input class="input1" type="number" id="srNo" placeholder="Serial Number" name="srNo" required
+                        min="1">
+                    <label class="label" for="date">Date</label>
+                    <input class="input2" type="date" id="date" placeholder="Date" name="date">
+                    <label class="label" for="time">Time</label>
+                    <input class="input3" type="time" id="time" placeholder="Time" name="time">
+                    <label class="label" for="name">Name</label>
+                    <input class="input4" type="text" id="name" placeholder="Name" name="name" minlength="3"
+                        maxlength="30" onkeydown="return /[a-z A-Z]/i.test(event.key)" required>
+                    <label class="label" for="fatherName">F/H Name</label>
+                    <input class="input5" type="text" id="fatherName" placeholder="Father/Husband Name"
+                        name="fatherName" onkeydown="return /[a-z A-Z]/i.test(event.key)" minlength="3" maxlength="30">
+                </div>
+                <div class="div2">
+                    <input type="file" id="uploadPic" accept="image/*" style="display: none;">
+                    <div class="imageBox" id="displayBox"></div>
+                    <button id="savePicBtn" style="display: none;">Save Pic</button>
+                </div>
+            </div>
+            <div class="div3">
+                <label class="label" for="cellNo">Cell No</label>
+                <input class="input6" type="tel" id="cellNo" placeholder="Cell Number" name="cellNo" size="11"
+                    minlength="9" maxlength="11" title="Please enter valid phone number">
+                <label class="label" for="address">Address</label>
+                <input class="input7" type="text" id="address" placeholder="Address" name="address">
+                <label class="label" for="age">Age</label>
+                <input class="input8" type="" id="age" placeholder="Age in Year" name="age" required minlength="1"
+                    maxlength="4" size="4">
+                <label class="label" for="gender">Gender</label>
+                <select class="input9" id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <label class="label" for="occupation">Occupation</label>
+                <input class="input10" type="text" id="occupation" placeholder="Occupation" name="occupation"
+                    onkeydown="return /[a-zA-Z]/i.test(event.key)">
+                <label class="label" for="problem">Problem</label>
+                <input class="input11" id="problem" placeholder="Problem" name="problem"></input>
+                <label class="label" for="fee">Fee</label>
+                <button class="button1">Amount</button>
+                <button class="button2">Free</button>
+              
+            </div>
+        </form>
+    </div>
+
+    <div id="displayData"></div>
+
+
+</body>
+<script src="Script.js"></script>
+
+</html>

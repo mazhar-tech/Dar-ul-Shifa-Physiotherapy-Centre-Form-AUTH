@@ -1,0 +1,182 @@
+* {
+   font-family: Sans-serif;
+}
+.container {
+   width: 800px;
+   margin: auto;
+}
+.form {
+   padding: 0%;
+   margin: 0%;
+   width: 100%;
+   display: flex;
+}
+.div1 {
+   padding: 0px;
+   flex: 4;
+}
+.div2 {
+   padding: 0px;
+   flex: 1;
+}
+.div3 {
+   padding: 0px;
+   flex: 1;
+}
+.div4 {
+   padding: 0px;
+   flex: 1;
+}
+.imageBox {
+   border: 1px black solid;
+   width: 150px; /* Set the desired width */
+   height: 160px; /* Set the desired height */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.customBox {
+   width: 300px;
+   height: 200px;
+   border: 2px dashed #ccc;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer; /* Add pointer cursor to indicate it's clickable */
+   background-size: contain; /* Fit the image inside the box without distortion */
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.input1 {
+   width: 8rem;
+   margin-top: 1.5rem;
+   margin-left: 2rem;
+   margin-bottom: 1rem;
+   margin-right: 4rem;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+.input2 {
+   width: 7rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+.input3 {
+   width: 7rem;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+.input4 {
+   width: 33.9rem;
+   margin-left: 2.5rem;
+   margin-top: 1.5rem;
+   margin-bottom: 1rem;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+.input5 {
+   width: 33.8rem;
+   margin-left: 0.7rem;
+   margin-bottom: 2.5rem;
+   margin-top: 1.5rem;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+.input6 {
+   width: 11rem;
+   margin-left: 1.8rem;
+   margin-bottom: 2px;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+.input7 {
+   width: 27.5rem;
+   margin-bottom: 1rem;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+.input8 {
+   width: 11rem;
+   margin-left: 3.1rem;
+   margin-top: 1.5rem;
+   margin-bottom: 2px;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+.input9 {
+   width: 8rem;
+   margin-left: 0.5rem;
+   margin-right: 2rem;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+.input10 {
+   width: 10.6rem;
+   margin-left: 1rem;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+.input11 {
+   width: 43.4rem;
+   margin-left: 1.4rem;
+   margin-top: 2.4rem;
+   margin-bottom: 2.5rem;
+   background-color: rgb(243, 238, 238);
+   border: 2px solid rgb(136, 131, 131);
+}
+input:focus {
+   border-color: #0a0a0a; /* Change border color on hover */
+  box-shadow: 0 0 10px #149d19; /* Add a box-shadow on hover */
+ }
+.label {
+   font-weight: 600;
+}
+
+/* CSS code */
+button {
+   /* Background color */
+   background-color: #17a31c;
+   
+   /* Text color */
+   color: white;
+   
+   /* Padding */
+   padding: 10px 20px;
+   
+   /* Border radius */
+   border-radius: 5px;
+   
+   /* Border */
+   border: none;
+   
+   /* Font size and weight */
+   font-size: 16px;
+   font-weight: bold;
+   
+   /* Cursor style */
+   cursor: pointer;
+   
+   /* Animation properties */
+   transition: all 0.2s ease-in-out;
+ }
+ .button1{
+   margin-right: 20px;
+   margin-left: 3.7rem;
+ }
+ 
+ /* Hover effect */
+ button:hover {
+   background-color: #077b0d; /* Change the background color on hover */
+   transform: scale(1.1); /* Scale the button up on hover */
+ }
+ 
+.h1 {
+   font-family: Sans-serif;
+   background-color: rgb(243, 238, 238);
+   margin-left: 20%;
+   margin-right: 20%;
+   text-align: center;
+   font-size: 40px;
+}
